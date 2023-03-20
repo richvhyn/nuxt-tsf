@@ -1,0 +1,8 @@
+// https://github.com/vuetifyjs/vuetify-loader/issues/290
+// Sourcemap sass error is open issue as of 20/Mar/2023
+$family: "Poppins", sans-serif;
+
+@use 'vuetify/settings' with (
+  $body-font-family: $family,
+  $field-border-radius: 16px
+);
